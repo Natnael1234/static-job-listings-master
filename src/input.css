@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply font-bold text-xl;
+    }
+
+    h2 {
+        @apply text-color-desaturated-dark-cyan font-bold;
+    }
+}
